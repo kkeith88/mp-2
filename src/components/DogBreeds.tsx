@@ -10,7 +10,7 @@ const DogGrid = styled.div`
 const DogGridItem = styled.div`
     border: 1px solid #ccc;
     padding: 15px;
-    font-size: 20px;
+    font-size: calc(15px + .5vw);
 `;
 
 
